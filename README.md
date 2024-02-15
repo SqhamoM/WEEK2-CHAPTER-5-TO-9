@@ -30,3 +30,27 @@ Embedding refers to taking content from one site and placing it within the middl
 HTML Content Identification
 The lang attribute is used to specify the language of a webpage. If the whole page is in one language, it is quite simple. Set the language on the main element that wraps everything else, which is usually the HTML element. It may only be required to set it once, like in a template file that applies to the entire site, but do not forget to do it! 
 Embedding refers to taking content from one site and placing it within the middle of another site's page. 
+DOCUMENT HEAD
+Inside the head of a webpage, you put important information that the browser needs to know about the website
+The meta element has various purposes. One common use is to inform the browser that the layout has been adjusted to fit small screens, making it a responsive website. Without this meta tag, the browser assumes the page follows an older layout technique designed for desktops, which needs to be scaled down for mobile devices. 
+he Link Element
+
+The link element is a crucial component used extensively within the head section. It serves to connect various assets that should load, such as CSS files, fonts, and favicons. To inform the browser about the type of asset, utilize the rel attribute.
+he href attribute is employed to specify the URL for the asset.
+
+The script tag is a commonly used element in an HTML document's head. It instructs the browser to load a JavaScript file. Although it is typically placed at the end of the document, some also include it in the head. 
+CONTENT STRUCTURING
+SIX IMPORTANT ELEMENTS
+Main-It tells the browser where the main content is located
+Header- Header is used for site headers, article headers, and headers within the content
+Head is where the file's metadata lives and is not displayed to users.
+Footer-he footer signifies that there are extra things to convey, regardless of its position on the page.
+Article-An article often starts with a title, subtitle, author's name, and publication date, which can also be considered a header
+Section -The section element is used to mark sections of content.
+. It is also useful for dividing different topic zones on a website
+ASIDE- aside element is for content that is off to the side, like sidebar information or additional details that accompany an article but are not part of its main flow
+Aside
+Working with Forms and Interactive Elements
+Form fields have been an essential part of the web for a long time. They are used for various tasks like logging into websites, making purchases, conducting searches, and adding content. 
+To create a form, we start with the form element, which informs the browser about the presence of a form using opening and closing tags. In the newsletter signup form, there will be two fields: name and email. 
+
